@@ -51,7 +51,7 @@ void read_matrix(int width, matrix m)
 // Сортировка по возрастанию методом выбора максимума
 void sort_row(element **row, int row_length)
 {
-    for (int i = row_length - 1; i > 0 - 1; i--)
+    for (int i = row_length - 1; i > 1 - 1; i--)
     {
         int max_elem = *row[i];
         int max_elem_index = i;
