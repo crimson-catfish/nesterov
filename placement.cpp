@@ -12,7 +12,7 @@ int read_width()
     cout << "Enter half of matrix width: ";
     int n;
     cin >> n;
-    return 2 * n;
+    return 2 * n + 1;
 }
 
 void read_matrix(int width, matrix m)
